@@ -1,0 +1,698 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navmenu {
+  max-width: 1140px !important;
+}
+
+@media (min-width: 1024px) {
+  .navitem {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+  }
+  .posterSection {
+    width: 100%;
+    height: 94vh;
+  }
+  .posterFather {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster1.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterText {
+    max-width: 1140px;
+    position: relative;
+    height: 33.3vh;
+  }
+  .pText {
+    text-align: justify;
+    direction: rtl;
+    font-size: 12px;
+  }
+
+  .cooperation {
+    height: 238.81px;
+    background-color: #f3f8fb;
+    padding: 20px 0;
+  }
+  .coopContainer {
+    height: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+  .item {
+    padding: 10px;
+  }
+
+  .myWorkContainer{
+    width: 100%;
+    padding: 80px 0;
+  }
+
+  .workBox{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+  .workText{
+    padding: 0 200px;
+  }
+  .technicBox.card{
+    width: 31%;
+    padding: 60px 40px;
+    background-color: #075aae;
+  }
+  .card-link{
+    background-color: #075aae;
+  }
+  .line{
+    width: 50px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .card.myBooks{
+    width: 65%;
+    border: unset;
+    background-color: #f3f8fb;
+    padding: 70px 50px 0 0;
+  }
+  .card-text.myBooksText{
+    text-align: justify;
+    direction: rtl;
+  }
+  .myBooksImg{
+    width: 165px !important;
+    object-fit: contain;
+  }
+  .card.callMe{
+    width: 35%;
+    background-color: #f3f8fb;
+    border: unset;
+    padding: 44px 24px;
+  }
+  .card-link.callMeBtn{
+    background-color: #075aae;
+    width: 187px;
+    height: 60px;
+  }
+
+  
+  .posterSection2 {
+    width: 100%;
+    height: 84.5vh;
+  }
+  .posterFather2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg2 {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster2.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .pText2 {
+    text-align: justify;
+    direction: rtl;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
+
+  .myLiveContainer{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #fbf8f9;
+  }
+  .myLiveBox{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+.card.cardBox{
+  width: 100%;
+  height: 80%;
+  padding: 60px 40px;
+  border: unset;
+}
+.pText3 {
+  text-align: justify;
+  direction: rtl;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+
+.myFooter{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #075aae;
+}
+.card.startNow{
+  width: 100%;
+  max-width: 1140px;
+  padding: 15px;
+  background-color: #075aae;
+  border: unset;
+}
+.footerBtn{
+  width: 150px;
+  height: 50px;
+}
+.footerBox{
+  width: 100%;
+  padding: 30px 0;
+}
+.footerText{
+  width: 100%;
+  max-width: 1140px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navitem {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(128, 128, 128, 0.61);
+    line-height: 39.3px;
+  }
+  .posterSection {
+    width: 100%;
+    height: 71vh;
+  }
+  .posterFather {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster1_resize1.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterText {
+    max-width: 1140px;
+    position: relative;
+    height: 33.3vh;
+  }
+  .pText {
+    text-align: justify;
+    direction: rtl;
+    font-size: 12px;
+  }
+
+  .cooperation {
+    background-color: #f3f8fb;
+    padding: 20px 0;
+  }
+  .coopContainer {
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+  .item {
+    width: calc(100%/7);
+    padding: 10px;
+  }
+  .myWorkContainer{
+    width: 100%;
+    padding: 80px 0;
+  }
+
+  .workBox{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+  .workText{
+    padding: 0 200px;
+  }
+  .technicBox.card{
+    width: 31%;
+    padding: 60px 20px;
+    background-color: #075aae;
+  }
+  .card-link{
+    background-color: #075aae;
+  }
+  .line{
+    width: 50px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .card.myBooks{
+    width: 65%;
+    border: unset;
+    background-color: #f3f8fb;
+    padding: 70px 50px 0 0;
+  }
+  .card-text.myBooksText{
+    text-align: justify;
+    direction: rtl;
+  }
+  .myBooksImg{
+    width: 165px !important;
+    object-fit: contain;
+  }
+  .card.callMe{
+    width: 35%;
+    background-color: #f3f8fb;
+    border: unset;
+    padding: 44px 24px;
+  }
+  .card-link.callMeBtn{
+    background-color: #075aae;
+    width: 187px;
+    height: 60px;
+  }
+  
+  
+  .posterSection2 {
+    width: 100%;
+    height: 542px;
+  }
+  .posterFather2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg2 {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster2-resize1.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .pText2 {
+    text-align: justify;
+    direction: rtl;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
+  .myLiveContainer{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #fbf8f9; 
+  }
+  .myLiveBox{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+.card.cardBox{
+  width: 100%;
+  height: 80%;
+  padding: 60px 40px;
+  border: unset;
+}
+.pText3 {
+  text-align: justify;
+  direction: rtl;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+
+
+.myFooter{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #075aae;
+}
+.card.startNow{
+  width: 100%;
+  max-width: 1140px;
+  padding: 15px;
+  background-color: #075aae;
+  border: unset;
+}
+.footerBtn{
+  width: 150px;
+  height: 50px;
+}
+}
+
+@media (max-width: 768px) {
+  .navitem {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(128, 128, 128, 0.61);
+    line-height: 39.3px;
+  }
+  .navbar-toggler {
+    background-color: #075aae;
+    width: 38px;
+    padding: 0 !important;
+    border-radius: 2px;
+  }
+  .navbar-toggler-icon {
+    color: white !important;
+    scale: 0.6;
+  }
+  .posterSection {
+    width: 100%;
+    height: 65vh;
+  }
+  .posterFather {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster1_resize2.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterText {
+    max-width: 1140px;
+    position: relative;
+    height: 33.3vh;
+  }
+  .pText {
+    text-align: justify;
+    direction: rtl;
+    font-size: 12px;
+  }
+  
+  .cooperation {
+    background-color: #f3f8fb;
+    padding: 20px 0;
+  }
+  .coopContainer {
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+  .item {
+    width: 50%;
+    padding: 10px;
+  }
+
+
+  .myWorkContainer{
+    width: 100%;
+    padding: 80px 0 0 0;
+  }
+
+  .workBox{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+  .technicBox.card{
+    width: 100%;
+    padding: 44px 24px;
+    background-color: #075aae;
+  }
+  .card-link{
+    background-color: #075aae;
+  }
+  .line{
+    width: 50px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .card.myBooks{
+    width: 100%;
+    border: unset;
+    background-color: #f3f8fb;
+    padding: 60px 40px 0 40px;
+  }
+  .card-text.myBooksText{
+    text-align: justify;
+    direction: rtl;
+  }
+  .myBooksImg{
+    width: 215px !important;
+    object-fit: contain;
+  }
+  .card.callMe{
+    width: 100%;
+    background-color: #f3f8fb;
+    border: unset;
+    padding: 44px 24px 0 24px;
+  }
+  .card-link.callMeBtn{
+    background-color: #075aae;
+    width: 187px;
+    height: 60px;
+  }
+  
+  
+  .posterSection2 {
+    width: 100%;
+    height: 403px;
+  }
+  .posterFather2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg2 {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster2-resize2.jpg) no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .pText2 {
+    text-align: justify;
+    direction: rtl;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  
+  .myLiveContainer{
+    width: 100%;
+    background-color: #fbf8f9; 
+  }
+  .myLiveBox{
+    width: 100%;
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+.card.cardBox{
+  width: 100%;
+  height: 80%;
+  padding: 60px 40px;
+  border: unset;
+}
+.pText3 {
+  text-align: justify;
+  direction: rtl;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+
+.myFooter{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #075aae;
+}
+.card.startNow{
+  width: 100%;
+  max-width: 1140px;
+  background-color: #075aae;
+  border: unset;
+}
+.footerBtn{
+  width: 150px;
+  height: 50px;
+}
+}
+
+
+@media (max-width: 480px) {
+  .navitem {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(128, 128, 128, 0.61);
+    line-height: 39.3px;
+  }
+  .navbar-toggler {
+    background-color: #075aae;
+    width: 38px;
+    padding: 0 !important;
+    border-radius: 2px;
+  }
+  .navbar-toggler-icon {
+    color: white !important;
+    scale: 0.6;
+  }
+  .posterSection {
+    width: 100%;
+    height: 65vh;
+  }
+  .posterFather {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .posterImg {
+    width: 100%;
+    height: 100%;
+    background: url(../media/poster1_resize2.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterGradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      90deg,
+      rgba(7, 90, 174, 0) 0%,
+      #075aae 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .posterText {
+    max-width: 1140px;
+    position: relative;
+    height: 33.3vh;
+  }
+  .pText {
+    text-align: justify;
+    direction: rtl;
+    font-size: 12px;
+  }
+  
+  .cooperation {
+    background-color: #f3f8fb;
+    padding: 20px 0;
+  }
+  .coopContainer {
+    max-width: 1140px;
+    padding: 15px;
+  }
+
+  .item {
+    width: 100%;
+    padding: 10px;
+  }
+}
